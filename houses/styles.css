@@ -74,7 +74,7 @@ body {
     justify-content: center;
 }
 
-.family-member {
+.family-member, .family-member:active, .family-member:visited {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -95,3 +95,46 @@ body {
     max-width: 110px;
     border-radius: 10px;
 }
+
+.CharInfo {
+    padding: 2%;
+}
+
+/* family member info expansion
+=============================================================================*/
+
+.family-member:hover, .family-member:focus {
+    box-shadow: 0px 0px 10px 10px rgba(245, 79, 79, 0.5);
+}
+
+
+
+
+
+
+/*individual Stark family member defaults*/
+.Ned-closed  .NedInfo {display: none;}
+.Catelyn-closed  .CatelynInfo {display: none;}
+.Robb-closed  .RobbInfo {display: none;}
+.Sansa-closed .SansaInfo {display: none;}
+.Arya-closed  .AryaInfo {display:none;}
+.Bran-closed  .BranInfo {display: none;}
+.Rickon-closed  .RickonInfo {display: none;}
+
+/*individual Lannister family member defaults*/
+.Joanna-closed  .JoannaInfo {display: none;}
+.Tywin-closed  .TywinInfo {display: none;}
+.Jamie-closed  .JamieInfo {display: none;}
+.Cersei-closed  .CerseiInfo {display: none;}
+.Tyrion-closed  .TyrionInfo {display: none;}
+
+/*individual Baratheon family member defaults*/
+.Robert-closed  .RobertInfo {display: none;}
+.Joffery-closed  .JofferyInfo {display: none;}
+.Mrycella-closed  .MrycellaInfo {display: none;}
+.Tommen-closed  .TommenInfo {display: none;}
+
+/*individual Martel family member defaults*/
+
+
+/*individual Targareyn family member defaults*/
