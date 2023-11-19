@@ -26,17 +26,31 @@ document.querySelector('.Rickon').addEventListener("click", () => {
 //specifically: name, titles, aliases, and playedBy
 //have data returned to show within charachter's box in web page
 
-    var asoiaf = require('asoiaf-api');
 
-    const NedInfo = document.querySelector('NedInfo');
+//test 1
+//   var asoiaf = require('asoiaf-api.js');
+
+//   const NedInfo = document.querySelector('NedInfo');
     
-    const getNedInfo = asoaif.getCharacterByName("Ned Stark")
-       getNedInfo.then((r) => r.json())
-       .then((json) => console.log(json));
+//    const getNedInfo = asoaif.getCharacterByName("Ned Stark")
+//       getNedInfo.then((r) => r.json())
+//       .then((json) => console.log(json));
      //  .then((json) => NedInfo.innerHTML = json.Info);
 
 
-//test
-//   const testFetch = fetch("https://www.anapioficeandfire.com/api/books")
+//test 2
+//   const testFetch = fetch("https://www.anapioficeandfire.com/api/characters")
 //       testFetch.then((response) => response.json())
 //        .then((json) => console.log(json));
+
+
+for(let index = 0 ; index < 3000; index++) {
+    fetch("https://www.anapioficeandfire.com/api/characters")
+    .then (//"name", "titles", "aliases", "playedBy"
+    )
+            //data.data => ../houses/index.json
+}
+
+
+
+

@@ -8,7 +8,6 @@
 /* Base
 ========================================================================== */
 @-ms-viewport{ width: device-width; }
-
 html {
     font-size: 16px;
 /*}
@@ -16,7 +15,7 @@ html {
 body {*/
     background-color: antiquewhite;
     background-image: url(wierw.png);
-    /*background-attachment: fixed;*/
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-position: right -15%;
 }
@@ -45,6 +44,10 @@ body {*/
     text-decoration: none;
     color: red;
 
+}
+
+.main-house .wip {
+  color: antiquewhite;
 }
 
 /* leaves effect
