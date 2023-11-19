@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/arbazsiddiqui/A-song-of-ice-and-fire-API#readme",
   "dependencies": {
+    "asoiaf-api": "^1.0.1",
     "xmlhttprequest": "^1.8.0"
   }
 }

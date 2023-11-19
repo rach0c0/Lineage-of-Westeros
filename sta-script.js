@@ -22,3 +22,21 @@ document.querySelector('.Rickon').addEventListener("click", () => {
     document.querySelector(".Rickon").classList.toggle("Rickon-closed")});
 
 
+//Call character data from asoiaf API
+//specifically: name, titles, aliases, and playedBy
+//have data returned to show within charachter's box in web page
+
+    var asoiaf = require('asoiaf-api');
+
+    const NedInfo = document.querySelector('NedInfo');
+    
+    const getNedInfo = asoaif.getCharacterByName("Ned Stark")
+       getNedInfo.then((r) => r.json())
+       .then((json) => console.log(json));
+     //  .then((json) => NedInfo.innerHTML = json.Info);
+
+
+//test
+//   const testFetch = fetch("https://www.anapioficeandfire.com/api/books")
+//       testFetch.then((response) => response.json())
+//        .then((json) => console.log(json));
