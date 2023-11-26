@@ -3,11 +3,58 @@
 document.querySelector('.Robert').addEventListener("click", () => {
     document.querySelector(".Robert").classList.toggle("Robert-closed")});
 
-document.querySelector('.JofferyPic').addEventListener("click", () => {
+document.querySelector('.Cersei').addEventListener("click", () => {
+    document.querySelector(".Cersei").classList.toggle("Cersei-closed")});
+
+document.querySelector('.Joffery').addEventListener("click", () => {
     document.querySelector(".Joffery").classList.toggle("Joffery-closed")});
 
-document.querySelector('.MrycellaPic').addEventListener("click", () => {
+document.querySelector('.Mrycella').addEventListener("click", () => {
     document.querySelector(".Mrycella").classList.toggle("Mrycella-closed")});
 
-document.querySelector('.TommenPic').addEventListener("click", () => {
+document.querySelector('.Tommen').addEventListener("click", () => {
     document.querySelector(".Tommen").classList.toggle("Tommen-closed")});
+
+
+
+//Call character data from asoiaf API
+//specifically: name, titles, aliases, and playedBy
+//have data returned to show within charachter's box in web page
+
+const RobertInfo = document.getElementById("901");
+
+const getRobertInfo = fetch("https://www.anapioficeandfire.com/api/characters/901")
+    getRobertInfo.then((response) => response.json())
+  //  .then((json) => console.log(json))
+    .then((json) => RobertInfo.innerHTML = "Name: " + json.name + "<br>Titles: " + json.titles + "<br>Aliases: " + json.aliases + "<br>Played By: " + json.playedBy);
+
+
+ const CerseiInfo = document.getElementById("238");
+
+ const getCerseiInfo = fetch("https://www.anapioficeandfire.com/api/characters/238")
+     getCerseiInfo.then((response) => response.json())
+  //  .then((json) => console.log(json))
+    .then((json) => CerseiInfo.innerHTML = "Name: " + json.name + "<br>Titles: " + json.titles + "<br>Aliases: " + json.aliases + "<br>Played By: " + json.playedBy);
+
+
+//const JofferyInfo = document.getElementById("");
+
+//const getJofferyInfo = fetch("https://www.anapioficeandfire.com/api/characters/")
+//    getJofferyInfo.then((response) => response.json())
+  //  .then((json) => console.log(json))
+//     .then((json) => JofferyInfo.innerHTML = "Name: " + json.name + "<br>Titles: " + json.titles + "<br>Aliases: " + json.aliases + "<br>Played By: " + json.playedBy);
+
+//const MrycellaInfo = document.getElementById("148");
+
+// const getMrycellaInfo = fetch("https://www.anapioficeandfire.com/api/characters/148")
+//     getMrycellaInfo.then((response) => response.json())
+   //  .then((json) => console.log(json))
+//     .then((json) => MrycellaInfo.innerHTML = "Name: " + json.name + "<br>Titles: " + json.titles + "<br>Aliases: " + json.aliases + "<br>Played By: " + json.playedBy);
+
+const TommenInfo = document.getElementById("1029");
+
+ const getTommenInfo = fetch("https://www.anapioficeandfire.com/api/characters/1029")
+     getTommenInfo.then((response) => response.json())
+   //  .then((json) => console.log(json))
+     .then((json) => TommenInfo.innerHTML = "Name: " + json.name + "<br>Titles: " + json.titles + "<br>Aliases: " + json.aliases + "<br>Played By: " + json.playedBy);
+

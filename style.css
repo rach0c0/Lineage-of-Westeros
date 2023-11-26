@@ -52,8 +52,12 @@ body {*/
 
 /* leaves effect
 ====================================================================*/
-.L1{
+.L1, .L3, .L4 {
 width: 30px;
+}
+
+.L2, .L5 {
+width: 20px;
 }
 
 section{
@@ -79,9 +83,9 @@ section{
     display:block ;
   }
   section .set div:nth-child(1){
-    left:20%;
+    left:25%;
     animation:animate 15s linear infinite ;
-    animation-delay:-7s;
+    animation-delay:-8s;
   }
   section .set div:nth-child(2){
     left:50%;
@@ -94,7 +98,7 @@ section{
     animation-delay:0s;
   }
   section .set div:nth-child(4){
-    left:0%;
+    left:60%;
     animation:animate 15s linear infinite ;
     animation-delay:-5s;
   }

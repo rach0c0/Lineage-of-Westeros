@@ -55,12 +55,14 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
+    position: relative;
     background-color: white;
     border-style: solid;
     border-color: red;
     border-radius: 10px;
-    width: fit-content;
+    /*width: fit-content;*/
+    max-width: 220px;
     height: fit-content;
     padding: 2%;
     margin: 4%;
@@ -88,7 +90,10 @@ body {
     box-shadow: 0px 0px 10px 10px rgba(245, 79, 79, 0.5);
 }
 
-
+.close-prompt {
+    text-align: right;
+    text-decoration: underline;
+}
 
 
 
