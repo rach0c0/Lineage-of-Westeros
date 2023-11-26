@@ -37,19 +37,19 @@ const getRobertInfo = fetch("https://www.anapioficeandfire.com/api/characters/90
     .then((json) => CerseiInfo.innerHTML = "Name: " + json.name + "<br>Titles: " + json.titles + "<br>Aliases: " + json.aliases + "<br>Played By: " + json.playedBy);
 
 
-//const JofferyInfo = document.getElementById("");
+const JofferyInfo = document.getElementById("565");
 
-//const getJofferyInfo = fetch("https://www.anapioficeandfire.com/api/characters/")
-//    getJofferyInfo.then((response) => response.json())
+const getJofferyInfo = fetch("https://www.anapioficeandfire.com/api/characters/565")
+    getJofferyInfo.then((response) => response.json())
   //  .then((json) => console.log(json))
-//     .then((json) => JofferyInfo.innerHTML = "Name: " + json.name + "<br>Titles: " + json.titles + "<br>Aliases: " + json.aliases + "<br>Played By: " + json.playedBy);
+     .then((json) => JofferyInfo.innerHTML = "Name: " + json.name + "<br>Titles: " + json.titles + "<br>Aliases: " + json.aliases + "<br>Played By: " + json.playedBy);
 
-//const MrycellaInfo = document.getElementById("148");
+const MyrcellaInfo = document.getElementById("775");
 
-// const getMrycellaInfo = fetch("https://www.anapioficeandfire.com/api/characters/148")
-//     getMrycellaInfo.then((response) => response.json())
+ const getMyrcellaInfo = fetch("https://www.anapioficeandfire.com/api/characters/775")
+     getMyrcellaInfo.then((response) => response.json())
    //  .then((json) => console.log(json))
-//     .then((json) => MrycellaInfo.innerHTML = "Name: " + json.name + "<br>Titles: " + json.titles + "<br>Aliases: " + json.aliases + "<br>Played By: " + json.playedBy);
+     .then((json) => MyrcellaInfo.innerHTML = "Name: " + json.name + "<br>Titles: " + json.titles + "<br>Aliases: " + json.aliases + "<br>Played By: " + json.playedBy);
 
 const TommenInfo = document.getElementById("1029");
 

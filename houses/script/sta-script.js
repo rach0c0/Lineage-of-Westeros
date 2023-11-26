@@ -41,12 +41,12 @@ const getNedInfo = fetch("https://www.anapioficeandfire.com/api/characters/339")
   //  .then((json) => console.log(json))
     .then((json) => CatelynInfo.innerHTML = "Name: " + json.name + "<br>Titles: " + json.titles + "<br>Aliases: " + json.aliases + "<br>Played By: " + json.playedBy);
 
-// const RobbInfo = document.getElementById("");
+const RobbInfo = document.getElementById("1880");
 
-// const getRobbInfo = fetch("https://www.anapioficeandfire.com/api/characters/")
-//    getRobbInfo.then((response) => response.json())
+ const getRobbInfo = fetch("https://www.anapioficeandfire.com/api/characters/1880")
+    getRobbInfo.then((response) => response.json())
   //  .then((json) => console.log(json))
-//    .then((json) => RobbInfo.innerHTML = "Name: " + json.name + "<br>Titles: " + json.titles + "<br>Aliases: " + json.aliases + "<br>Played By: " + json.playedBy);
+    .then((json) => RobbInfo.innerHTML = "Name: " + json.name + "<br>Titles: " + json.titles + "<br>Aliases: " + json.aliases + "<br>Played By: " + json.playedBy);
 
 const SansaInfo = document.getElementById("957");
 

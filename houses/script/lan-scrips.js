@@ -15,27 +15,27 @@ document.querySelector('.Cersei').addEventListener("click", () => {
 document.querySelector('.Tyrion').addEventListener("click", () => {
     document.querySelector(".Tyrion").classList.toggle("Tyrion-closed")});
 
-    
+
 
 
 //Call character data from asoiaf API
 //specifically: name, titles, aliases, and playedBy
 //have data returned to show within charachter's box in web page
 
-//const TywinInfo = document.getElementById("");
+const TywinInfo = document.getElementById("27");
 
-//const getTywinInfo = fetch("https://www.anapioficeandfire.com/api/characters/")
-//    getTywinInfo.then((response) => response.json())
+const getTywinInfo = fetch("https://www.anapioficeandfire.com/api/characters/27")
+    getTywinInfo.then((response) => response.json())
   //  .then((json) => console.log(json))
-//    .then((json) => TywinInfo.innerHTML = "Name: " + json.name + "<br>Titles: " + json.titles + "<br>Aliases: " + json.aliases + "<br>Played By: " + json.playedBy);
+    .then((json) => TywinInfo.innerHTML = "Name: " + json.name + "<br>Titles: " + json.titles + "<br>Aliases: " + json.aliases + "<br>Played By: " + json.playedBy);
 
 
-// const JoannaInfo = document.getElementById("");
+const JoannaInfo = document.getElementById("562");
 
-// const getJoannaInfo = fetch("https://www.anapioficeandfire.com/api/characters/")
-//     getJoannaInfo.then((response) => response.json())
+ const getJoannaInfo = fetch("https://www.anapioficeandfire.com/api/characters/562")
+     getJoannaInfo.then((response) => response.json())
   //  .then((json) => console.log(json))
-//    .then((json) => JoannaInfo.innerHTML = "Name: " + json.name + "<br>Titles: " + json.titles + "<br>Aliases: " + json.aliases + "<br>Played By: " + json.playedBy);
+    .then((json) => JoannaInfo.innerHTML = "Name: " + json.name + "<br>Titles: " + json.titles + "<br>Aliases: " + json.aliases + "<br>Played By: " + json.playedBy);
 
 
 const CerseiInfo = document.getElementById("238");
