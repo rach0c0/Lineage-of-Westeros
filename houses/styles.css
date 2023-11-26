@@ -22,10 +22,15 @@ body {
     display: block;
     background-color: antiquewhite;
     font-size: 300%;
-    color: red;
+    text-decoration: none;
+    color: rgb(105, 4, 4);
     padding: 20px 50px 10px 50px;
     margin-top: 0px;
     margin-bottom: 30px;
+}
+
+.returnHome {
+    text-decoration: none;
 }
 
 .nav-container {

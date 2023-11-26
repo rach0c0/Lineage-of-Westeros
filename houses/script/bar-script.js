@@ -9,8 +9,8 @@ document.querySelector('.Cersei').addEventListener("click", () => {
 document.querySelector('.Joffery').addEventListener("click", () => {
     document.querySelector(".Joffery").classList.toggle("Joffery-closed")});
 
-document.querySelector('.Mrycella').addEventListener("click", () => {
-    document.querySelector(".Mrycella").classList.toggle("Mrycella-closed")});
+document.querySelector('.Myrcella').addEventListener("click", () => {
+    document.querySelector(".Myrcella").classList.toggle("Myrcella-closed")});
 
 document.querySelector('.Tommen').addEventListener("click", () => {
     document.querySelector(".Tommen").classList.toggle("Tommen-closed")});

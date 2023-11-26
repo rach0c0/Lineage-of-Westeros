@@ -10,14 +10,16 @@
 @-ms-viewport{ width: device-width; }
 html {
     font-size: 16px;
-/*}
-
-body {*/
     background-color: antiquewhite;
     background-image: url(wierw.png);
+    background-size: 90%;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-position: right -15%;
+    background-position: bottom 70% left 150%;
+}
+
+header {
+  margin: 0px;
 }
 
 /* layout & typeography
