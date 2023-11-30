@@ -61,6 +61,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: left;
+    flex-wrap: wrap;
     position: relative;
     background-color: white;
     border-style: solid;

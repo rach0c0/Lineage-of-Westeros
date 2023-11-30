@@ -14,7 +14,7 @@ html {
     background-image: url(wierw.png);
     background-size: 90%;
     background-repeat: no-repeat;
-    background-position: bottom 70% left 150%;
+    background-position: bottom 100% left 230%;
 }
 
 header {
@@ -52,8 +52,61 @@ body {
 
 }
 
-.main-house .wip {
+.wip {
   color: antiquewhite;
+}
+
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  position:absolute;
+  margin: 40%;
+  margin-top: 35%;
+  border: solid 2px;
+  border-radius: 20px;
+
+}
+
+.welcome-message {
+  width: 210px;
+  height: 35px;
+  font-size: 20px;
+  text-align: left;
+  border-bottom: solid 1px;
+  background-color: rgb(209, 207, 207);
+  border-radius: 20px 20px 0px 0px;
+  padding: 10px 0px 0px 10px;
+}
+
+
+/* button style
+=====================================================================*/
+
+.enter-button-container {
+  width: 220px;
+  height: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 0px 0px 20px 20px;
+  padding: 
+  
+}
+
+.enter-button{
+  font-size: 20px;
+}
+
+.enter-button:hover, .enter-button:focus {
+
+}
+
+.enter-button:active, .enter-button:visited {
+
 }
 
 /* leaves effect
