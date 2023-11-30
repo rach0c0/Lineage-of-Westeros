@@ -9,6 +9,6 @@
 <ul>Feature 5: Implemented modern interactive UI feature table/data sorting</ul>
 
 <h2>Flex Goals</h2>
-<ul>Add houses Martel and Targaryn as well as continue to add more and more characters</ul>
+<ul>Add houses Martel and Targareyn as well as continue to add more and more characters</ul>
 <ul>Build a interactive scroll-ability that allows the user to select a character and either scroll up to see parentage or scroll down to see decendents</ul>
 <ul>create a search feature that allows user to locate specific character</ul>
