@@ -6,7 +6,7 @@
 /* mobile */
 
 @media (max-width: 609px) and (orientation: portrait) {
-  html {
+  body {
     background-size: 100%;
     background-position: bottom 50% left 200%;
   }
@@ -20,7 +20,7 @@
 /* tablet */
 
 @media (max-width: 1000px) and (min-width: 610px) {
-  html {
+  body {
     background-size: 90%;
     background-position: bottom 90% left 200%;
   }
@@ -34,7 +34,7 @@
 /* computer */
 
 @media(min-width: 1001px) and (max-width: 1300px) {
-  html {
+  body {
       background-size: 70%;
       background-position: bottom 100% left 100%;
     }
@@ -46,7 +46,7 @@
   }
 
 @media(min-width: 1301px) and (orientation: landscape) {
-  html {
+  body {
       background-size: 70%;
       background-position: bottom 50% left 100%;
     }
@@ -68,9 +68,7 @@
 
 html {
   font-size: 16px;
-  background-color: antiquewhite;
-  background-image: url(wierw.png);
-  background-repeat: no-repeat;
+  background: linear-gradient(antiquewhite, rgb(216, 210, 206));
 }
 
 header {
@@ -79,6 +77,8 @@ header {
 }
 
 body {
+  background-image: url(wierw.png);
+  background-repeat: no-repeat;
   margin: 0px;
 }
 
