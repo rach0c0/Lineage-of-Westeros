@@ -35,7 +35,7 @@ const JoannaInfo = document.getElementById("562");
  const getJoannaInfo = fetch("https://www.anapioficeandfire.com/api/characters/562")
      getJoannaInfo.then((response) => response.json())
   //  .then((json) => console.log(json))
-    .then((json) => JoannaInfo.innerHTML = "Name: " + json.name + "<br>Titles: " + json.titles.join(', ') + "<br>Aliases: " + json.aliases.join(', ') + "<br>Played By: " + json.playedBy);
+    .then((json) => JoannaInfo.innerHTML = "Name: " + json.name + "<br>Titles: " + json.titles.join(', '));
 
 
 const CerseiInfo = document.getElementById("238");
