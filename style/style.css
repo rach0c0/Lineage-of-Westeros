@@ -154,14 +154,15 @@ body {
 
 .enter-button{
   font-size: 20px;
+  font-family: 'Lora', serif;
 }
 
 .enter-button:hover, .enter-button:focus {
-
+  font-family: 'Lora', serif;
 }
 
 .enter-button:active, .enter-button:visited {
-
+  font-family: 'Lora', serif;
 }
 
 /* leaves effect
